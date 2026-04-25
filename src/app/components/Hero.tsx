@@ -51,7 +51,7 @@ const Hero = () => {
                             target='_blank'
                             className='flex items-center gap-2 border border-gray-800 text-gray-800 px-6 py-3 rounded-full font-medium hover:bg-gray-100 transition-colors'
                         >
-                            GitHub Profile <span>⌥</span>
+                            GitHub Profile 
                         </Link>
 
                     </div>
