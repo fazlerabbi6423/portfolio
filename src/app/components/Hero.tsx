@@ -3,7 +3,7 @@
 
 
 import Link from 'next/link';
-import Image from 'next/image';
+
 
 const Hero = () => {
     return (
@@ -34,7 +34,7 @@ const Hero = () => {
                     </h1>
                     
                     <p className='text-gray-500 text-lg max-w-md mb-10'>
-                        I'm a Developer.
+                        I'm a fort end  Developer. 
                     </p>
 
                     <div className='flex gap-4'>
