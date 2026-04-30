@@ -34,7 +34,7 @@ const Hero = () => {
                     </h1>
                     
                     <p className='text-gray-500 text-lg max-w-md mb-10'>
-                        I'm a fort end  Developer. 
+                        I'm a fort end  Developer. Frontend Focused Full Stack Developer. Building high-performance, TypeScript-based solutions with React/Next.js, Node/Express, Supabase, and cloud deployments🚀
                     </p>
 
                     <div className='flex gap-4'>
