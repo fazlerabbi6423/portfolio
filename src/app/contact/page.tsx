@@ -63,7 +63,7 @@ const contact = () => {
               />
 
               <textarea
-                rows="6"
+                rows={6}
                 placeholder="Your Message"
                 className="w-full px-5 py-4 rounded-xl bg-white text-gray-700 outline-none resize-none"
               ></textarea>
