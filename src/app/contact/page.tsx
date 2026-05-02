@@ -4,10 +4,10 @@ const contact = () => {
     return (
         <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
 
-      {/* Background Gradient */}
+     
       <div className="absolute inset-0 bg-gradient-to-br from-white via-green-50 to-teal-100"></div>
 
-      {/* Dot Pattern */}
+     
       <div
         className="absolute inset-0"
         style={{
@@ -17,13 +17,13 @@ const contact = () => {
         }}
       ></div>
 
-      {/* Blur Circle */}
+     
       <div className="absolute bottom-10 right-20 w-64 h-64 bg-purple-300 rounded-full blur-3xl opacity-40"></div>
 
       {/* Content */}
       <div className="relative z-10 grid md:grid-cols-2 gap-10 max-w-7xl mx-auto px-6 py-10 items-center">
 
-        {/* Left Side */}
+       
         <div>
           <p className="text-gray-500 text-xl mb-2 font-light">Hi, I'm</p>
 
@@ -44,7 +44,7 @@ const contact = () => {
           </div>
         </div>
 
-        {/* Right Side Form */}
+        
         <div className="w-full">
           <div className="border border-white/50 rounded-3xl p-6 md:p-10 bg-white/30 backdrop-blur-md shadow-xl">
 

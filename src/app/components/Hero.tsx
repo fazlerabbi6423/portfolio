@@ -92,7 +92,7 @@ const Hero = () => {
            
             <div className='relative z-10 flex flex-col-reverse md:flex-row items-center justify-between max-w-6xl mx-auto px-6 md:px-10 gap-10'>
                 
-                {/* Text Content */}
+                
                 <div className='flex-1 text-center md:text-left'>
                     <p className='text-gray-500 text-lg md:text-xl mb-2 font-light'>Hi, I'm</p>
                     
@@ -122,7 +122,7 @@ const Hero = () => {
                     </div>
                 </div>
 
-                {/* Profile Image */}
+               
                 <div className='flex-shrink-0'>
                     <div className='w-48 h-48 md:w-72 md:h-72 rounded-full overflow-hidden border-4 border-white shadow-2xl'>
                         <img className='w-full h-full object-cover' src="profile.jpg" alt="Fazle Rabbi" />

@@ -17,17 +17,17 @@ const educationData = [
 
 const Page = () => {
   return (
-    <div className="bg-black min-h-screen">
+    <div className="  inset-0 bg-gradient-to-br from-white via-green-50 to-teal-100 min-h-screen">
 
       
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden px-8 md:px-20">
         <div className="max-w-6xl mx-auto w-full flex flex-col items-center justify-center gap-12 text-center">
           <div className="flex-1">
-            <h1 className="text-4xl md:text-5xl font-bold mb-4 text-white">
+            <h1 className="text-4xl md:text-5xl font-bold mb-4 text-black">
               Hi, I&apos;m <br />
-              <span className="text-white">Fazle Rabbi</span>
+              <span className="">Fazle Rabbi</span>
             </h1>
-            <p className="text-sm md:text-base leading-relaxed max-w-md text-white/70 mx-auto">
+            <p className="text-sm md:text-base leading-relaxed max-w-md text-black mx-auto">
               I am a front end developer. I love building full-stack solutions
               using Next.js, NestJS, and TypeScript.
             </p>
@@ -39,7 +39,7 @@ const Page = () => {
       <section className="bg-black py-16 px-8 md:px-20">
         <div className="max-w-4xl mx-auto">
 
-          {/* Heading */}
+          
           <div className="text-center mb-10">
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-3">
               Education &amp; Qualifications
