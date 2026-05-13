@@ -105,15 +105,16 @@ const Hero = () => {
                     </p>
 
                     <div className='flex flex-col sm:flex-row gap-4 justify-center md:justify-start'>
-                        <Link 
-                            href='/resume'
+                        <a 
+                            href='Resumi1.pdf'
+                            download={true}
                             className='flex items-center justify-center gap-2 bg-gray-900 text-white px-8 py-3 rounded-full font-medium hover:bg-gray-700 transition-colors'
                         >
                             View My Resume 
-                        </Link>
+                        </a>
 
                         <Link 
-                            href='https://github.com'
+                            href='https://github.com/fazlerabbi6423'
                             target='_blank'
                             className='flex items-center justify-center gap-2 border border-gray-800 text-gray-800 px-8 py-3 rounded-full font-medium hover:bg-gray-100 transition-colors'
                         >
